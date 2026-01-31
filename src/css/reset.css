@@ -25,10 +25,19 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+input {
+  border: none;
+}
+textarea {
+  border: none;
+  resize: none;
+  overflow: auto;
 }
